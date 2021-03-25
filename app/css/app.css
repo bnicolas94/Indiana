@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin:0;
+	padding:0;
+	background:url(../images/login.jpg);
+	background-position:center;
+	background-attachment:fixed;	
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+}
+form{
+	margin: 15px !important;
+}
+.frm{
+	border: 1px #fff solid;
+	background-color: rgba(0,0,0,.5);
+
+}
+.tabla1, .tabla2{
+	margin-top: 25px;
+	background-color: rgba(0,0,0,.5);
+	color: #fff;
+	padding: 25px;
+	border-radius: 25px;
+	border: 1px white solid;
+
+}
+.confirmar{
+	cursor: pointer;
+}
+.eliminar{
+	cursor: pointer;
+}

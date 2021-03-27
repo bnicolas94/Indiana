@@ -60,7 +60,7 @@ $cabeceras = 'From: reservas@indianabarandgrill.com.ar' . "\r\n" .
     'Reply-To: no@noreply.com' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
-mail($para, $titulo, $mensaje, $cabeceras);
+/*mail($para, $titulo, $mensaje, $cabeceras);*/
 }else{
 		echo 'reserva mala';
 	}
